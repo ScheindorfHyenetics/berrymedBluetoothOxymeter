@@ -1,6 +1,10 @@
 Compatibility : python2 only
 
 required modules :
-  = pybluez (import bluetooth) https://github.com/karulis/pybluez
+  = pybluez (import bluetooth)      https://github.com/karulis/pybluez
+  = pygtk (import pygtk , gtk , gtk.glade , gobject)    http://www.pygtk.org/
   = ...
 
+required hardware :
+ = Berrymed bluetooth oxymeter BM1000 | BM2000
+ = Bluetooth 3 support

@@ -41,3 +41,10 @@ cat /path/to/json | python2.7 berrymedBluetoothOxymeter/parser/ratelimit.py |  p
 
 ===Experimental stuff in gui===
 add "--experiments" option :  python2.7 berrymedBluetoothOxymeter/gui/jsonread.nonblock.py --experiments
+
+
+!!!
+!!!
+
+I included a file called fetchmodule.py in this project, its purpos is to install required modules (ie bluetooth)  and make changes to the code (ie device uuid)
+run it from the same directory as the script, please.
