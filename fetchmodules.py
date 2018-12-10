@@ -45,9 +45,15 @@ sleep 1
 echo $PIPEXE "install pybluez"
 $PIPEXE install pybluez
 
+echo " . "
+sleep 1
+echo "= require ptGTK ="
+$PIPEXE install pygtk
+
 sleep 1
 echo "= Patching device ID ="
 sleep 1
+echo " . "
 
 echo "--- parser/sp02.py      2017-04-18 09:01:28.542629549 +0200" > "$IDPATCH"
 echo "+++ /tmp/spo.pt 2018-12-10 21:47:41.217490514 +0100" >> "$IDPATCH"

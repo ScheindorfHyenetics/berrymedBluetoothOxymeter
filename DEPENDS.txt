@@ -1,6 +1,6 @@
 Compatibility : python2 only
 
 required modules :
-  = pybluez (import bleutooth) https://github.com/karulis/pybluez
+  = pybluez (import bluetooth) https://github.com/karulis/pybluez
   = ...
 
